@@ -44,7 +44,7 @@ DEFAULT_PLATFORM_ADDRESS = "federated-learning.net"
 DEFAULT_PLATFORM_PROTOCOL = "https"
 DEFAULT_FULL_GLOBAL_ADDRESS = f"{DEFAULT_PLATFORM_PROTOCOL}://{DEFAULT_PLATFORM_ADDRESS}"
 DEFAULT_PLATFORM_TCP_PORT = "9152"
-DEFAULT_COMPOSE_PROJECT_NAME = "flnet"
+DEFAULT_COMPOSE_PROJECT_NAME = "fl-net-client"
 IMAGE_TAG = "latest"
 GLOBAL_DOMAIN_TO_IMAGE = {
     "https://federated-learning.net": f"gitlab.cosy.bio:5050/cosybio/federated-learning/federated_db/frontend-shared/local-fl-net:{IMAGE_TAG}",
