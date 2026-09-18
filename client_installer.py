@@ -47,11 +47,11 @@ DEFAULT_PLATFORM_TCP_PORT = "9152"
 DEFAULT_COMPOSE_PROJECT_NAME = "fl-net-client"
 IMAGE_TAG = "latest"
 GLOBAL_DOMAIN_TO_IMAGE = {
-    "https://federated-learning.net": f"gitlab.cosy.bio:5050/cosybio/federated-learning/federated_db/frontend-shared/local-fl-net:{IMAGE_TAG}",
-    "https://daibetes-net.cosy.bio": f"gitlab.cosy.bio:5050/cosybio/federated-learning/federated_db/frontend-shared/local-daibetes:{IMAGE_TAG}",
-    "https://daibetes-net.federated-learning.net": f"gitlab.cosy.bio:5050/cosybio/federated-learning/federated_db/frontend-shared/local-daibetes:{IMAGE_TAG}",
-    "https://microb-ai-net.cosy.bio": f"gitlab.cosy.bio:5050/cosybio/federated-learning/federated_db/frontend-shared/local-microbaiome:{IMAGE_TAG}",
-    "https://microb-ai-net.federated-learning.net": f"gitlab.cosy.bio:5050/cosybio/federated-learning/federated_db/frontend-shared/local-microbaiome:{IMAGE_TAG}",
+    "https://federated-learning.net": f"ghcr.io/fedlearnnet/frontends/local-fl-net:{IMAGE_TAG}",
+    "https://daibetes-net.cosy.bio": f"ghcr.io/fedlearnnet/frontends/local-daibetes:{IMAGE_TAG}",
+    "https://daibetes-net.federated-learning.net": f"ghcr.io/fedlearnnet/frontends/local-daibetes:{IMAGE_TAG}",
+    "https://microb-ai-net.cosy.bio": f"ghcr.io/fedlearnnet/frontends/local-microbaiome:{IMAGE_TAG}",
+    "https://microb-ai-net.federated-learning.net": f"ghcr.io/fedlearnnet/frontends/local-microbaiome:{IMAGE_TAG}",
 }
 GLOBAL_DOMAIN_TO_AUTH_ENABLED_INFO = {
     "https://federated-learning.net": True,
@@ -60,7 +60,7 @@ GLOBAL_DOMAIN_TO_AUTH_ENABLED_INFO = {
     "https://microb-ai-net.cosy.bio": False,
     "https://microb-ai-net.federated-learning.net": False,
 }
-DEFAULT_FRONTEND_IMAGE = f"gitlab.cosy.bio:5050/cosybio/federated-learning/federated_db/frontend-shared/local-fl-net:{IMAGE_TAG}"
+DEFAULT_FRONTEND_IMAGE = f"ghcr.io/fedlearnnet/frontends/local-fl-net:{IMAGE_TAG}"
 DEFAULT_KEYCLOAK_BOOTSTRAP_ADMIN_USERNAME = "keycloak-admin"
 
 # Normalized keys used for the crypto-secret dict passed between
