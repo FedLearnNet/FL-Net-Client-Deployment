@@ -1,3 +1,6 @@
+# DEPRECATION
+This deployment style was deprecated and replaced with the [FL-Net CLI](https://github.com/FedLearnNet/FL-Net-CLI)
+
 # Purpose
 This repo serves to deploy a FL-Net Client which allows to participate in the
 [FL-Net project](https://federated-learning.net/documentation/), contributing data in a privacy preserving way 
